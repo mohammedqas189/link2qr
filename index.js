@@ -4,4 +4,13 @@
 3. Create a txt file to save the user input using the native fs node module.
 */
 
+import { input } from '@inquirer/prompts'; 
+import { writeFile } from 'fs';
+
+const url = await input( {message: 'Enter your URL: '} ); 
+
+writeFile('URL.txt', url, (err) => {
+    if (err) throw err;
+    console.log("Added User's URL");
+});
 
