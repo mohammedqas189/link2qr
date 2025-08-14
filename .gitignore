@@ -1,0 +1,15 @@
+# Node dependencies
+node_modules/
+
+# npm logs
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+
+# Generated files (ignore if you don't want them in Git)
+qr_img.png
